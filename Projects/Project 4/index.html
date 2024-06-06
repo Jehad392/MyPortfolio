@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TIC-TAC-TOE</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/tictactoe.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link href="css/tictactoe.css" rel="stylesheet"/>
+
+</head>
+<body>
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black" >
+     <h4 class="w3-center">TIC TAC TOE</h4>
+   </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-center w3-padding-large">
+    <span class="w3-tag" id="x">PLAYER<p>X</p></span>
+  </div>
+
+  <div class="w3-display-right w3-center w3-padding-large">
+    <span class="w3-tag" id="o">Player<p>O</p></span>
+  </div>
+
+  <div class="w3-display-middle w3-center" id="tictactoe"></div>  
+  
+  <div class="w3-display-middle">
+    <button type="reset" id="btn">Play Again</button>
+  </div>
+
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- rules Container -->
+<div class="w3-container" id="rules">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><p class="w3-tag w3-wide">RULES FOR TIC TAC TOE</p></h5>
+    <ul>
+        <p>1. The game is played on a grid that's 3 squares by 3 squares.</p>
+        <p></p>
+        <p>2. You are X, your friend is O. Players take turns putting their marks in empty squares.</p>  
+        <p></p>
+        <p>3. The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner.<p>
+        <p></p>
+        <p>4. When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a tie.</p>
+    </ul>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+</body>
+</html>
